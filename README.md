@@ -5,4 +5,4 @@ Steps to reproduce:
 2. Wait until CMake generation is done.
 3. "File | Close Folder".
 4. "File | Open | CMake" on CMakeProj\CMakeLists.txt.
-5. Message box should appear.
+5. Message box should appear. Note the IntelliSense errors in main.cpp. The errors disappear when CMake cache is regenerated.

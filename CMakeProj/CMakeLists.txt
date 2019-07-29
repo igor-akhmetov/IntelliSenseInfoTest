@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.2)
 project(MyApp VERSION 1.0.0 LANGUAGES CXX)
 add_executable(myExe main.cpp)
+target_compile_definitions(myExe PUBLIC FOOBAR=1)
+target_compile_features(myExe PUBLIC cxx_std_17)
